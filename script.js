@@ -21,6 +21,7 @@ function hexToRgb(hex) {
     return { r, g, b };
 }
 
+
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
         alert('Copied: ' + text);
